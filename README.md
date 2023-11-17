@@ -29,9 +29,11 @@ To run this project locally, follow these steps:
 3. Install the project dependencies.
 
 ```pip install -r requirements.txt```
+
 4. Set up the database by running migrations.
 ```python manage.py migrat```
-Start the development server.
+
+5. Start the development server.
 
 ```python manage.py runserver```
 Access the application by visiting http://localhost:8000 in your web browser.
