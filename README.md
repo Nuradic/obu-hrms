@@ -21,21 +21,25 @@ This project is a comprehensive Human Resource Management system specifically de
 To run this project locally, follow these steps:
 
 1. Clone the repository to your local machine.
-```git clone https://github.com/your-username/your-repository.git```
 
-2. Navigate to the project directory.
- ```cd your-repository```
+  ```git clone https://github.com/your-username/your-repository.git```
 
-3. Install the project dependencies.
+3. Navigate to the project directory.
+   
+  ```cd your-repository```
+
+5. Install the project dependencies.
 
 ```pip install -r requirements.txt```
 
 4. Set up the database by running migrations.
+   
 ```python manage.py migrat```
 
-5. Start the development server.
+6. Start the development server.
 
 ```python manage.py runserver```
+
 Access the application by visiting http://localhost:8000 in your web browser.
 ## Contributing
 Contributions to this project are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request. Let's work together to enhance the Human Resource Management system for Oda Bultum University.
